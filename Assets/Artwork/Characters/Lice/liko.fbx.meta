@@ -19,29 +19,50 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Armature|hips_backward_add' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'hips' has translation animation
-      that will be discarded.\n\nClip 'Armature|hips_forward_add' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'hips' has translation animation
-      that will be discarded.\n\nClip 'Armature|hips_left_add' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'hips' has translation animation
-      that will be discarded.\n\nClip 'Armature|hips_right_add' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'hips' has translation animation
-      that will be discarded.\n\nClip 'Armature|hips_right_add.001' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'hips' has translation animation
-      that will be discarded.\n\nClip 'Armature|run' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'hips' has translation animation that will
-      be discarded.\n\nClip 'Armature|walk' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'hips' has translation animation that will be discarded.\n"
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationImportWarnings: 
+    animationRetargetingWarnings: "\nRetargeting quality report for clip 'Armature|a_pose':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|head_down_add':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|head_left_add':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|head_right_add':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|head_up_add':\n\tRetargeting quality is good.
+      No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|hips_backward_add':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|hips_forward_add':\n\tRetargeting quality
+      is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|hips_left_add':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|hips_right_add':\n\tRetargeting quality is
+      good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|houseAction':\n\tLeftLowerLeg average position
+      error 2335.9 mm and maximum position error 2335.9 mm at time 0: 0 (0.0%) Frame
+      0\n\tLeftFoot average position error 3527.1 mm and maximum position error 3527.1
+      mm at time 0: 0 (0.0%) Frame 0\n\tRightLowerLeg average position error 2329.4
+      mm and maximum position error 2329.4 mm at time 0: 0 (0.0%) Frame 0\n\tRightFoot
+      average position error 3522.7 mm and maximum position error 3522.7 mm at time
+      0: 0 (0.0%) Frame 0\n\tLeftUpperArm average position error 2488.1 mm and maximum
+      position error 2488.1 mm at time 0: 0 (0.0%) Frame 0\n\tLeftLowerArm average
+      position error 2482.1 mm and maximum position error 2482.1 mm at time 0: 0
+      (0.0%) Frame 0\n\tLeftHand average position error 2546.8 mm and maximum position
+      error 2546.8 mm at time 0: 0 (0.0%) Frame 0\n\tRightUpperArm average position
+      error 2476.9 mm and maximum position error 2476.9 mm at time 0: 0 (0.0%) Frame
+      0\n\tRightLowerArm average position error 2572.6 mm and maximum position error
+      2572.6 mm at time 0: 0 (0.0%) Frame 0\n\tRightHand average position error 2611.4
+      mm and maximum position error 2611.4 mm at time 0: 0 (0.0%) Frame 0\n\tHead
+      average position error 2908.4 mm and maximum position error 2908.4 mm at time
+      0: 0 (0.0%) Frame 0\n\nRetargeting quality report for clip 'Armature|IdleStand':\n\tRetargeting
+      quality is good. No significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|jump':\n\tRetargeting quality is good. No
+      significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|run':\n\tRetargeting quality is good. No
+      significant differences with original animation were found.\n\nRetargeting
+      quality report for clip 'Armature|walk':\n\tRetargeting quality is good. No
+      significant differences with original animation were found.\n"
+    animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3
@@ -67,8 +88,8 @@ ModelImporter:
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -211,9 +232,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -240,9 +261,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -269,9 +290,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -298,9 +319,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -327,9 +348,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -356,9 +377,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -385,9 +406,38 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump
+      takeName: Armature|jump
+      internalID: -546925560337857073
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -424,7 +474,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
+    optimizeBones: 0
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -448,7 +498,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: Armature
+    - boneName: hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}

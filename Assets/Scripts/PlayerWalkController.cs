@@ -30,7 +30,7 @@ public class PlayerWalkController : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		anim.SetBool("sitting", false);
+		//anim.SetBool("sitting", false);
 		anim.SetBool("grounded", true);
 
 		cam = Camera.main;
@@ -83,7 +83,7 @@ public class PlayerWalkController : MonoBehaviour
 			}
 		}
 
-		grounded = Physics.CheckSphere(transform.position, 0.05f, groundLayerMask);
+		grounded = Physics.CheckSphere(transform.position + Vector3.up * 0.1f, 0.25f, groundLayerMask);
 
 		Vector3 camForward = cam.transform.forward;
 		camForward.y = 0.0f;
