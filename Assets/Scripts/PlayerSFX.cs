@@ -6,27 +6,28 @@ using FMOD.Studio;
 
 public class PlayerSFX : MonoBehaviour
 {
-    private EventInstance playerFootsteps;
-    Rigidbody rb;
-    // Start is called before the first frame update
-    void Start()
-    {
-        playerFootsteps = RuntimeManager.CreateInstance(FMODEvents.instance.playerFootsteps);
-        rb = GetComponent<Rigidbody>();
-    }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        UpdateSound();
-    }
+	private float nextPlayableTime;
 
-    private void UpdateSound()
-    {
-        if(transform.GetComponent<FlatSpeedCalculator>().flatSpeed > 0)
-        {
-            RuntimeManager.PlayOneShot(FMODEvents.instance.playerFootsteps, transform.position);
-        }
 
-    }
+	private void UpdateSound()
+	{
+		if (Time.time > nextPlayableTime)
+		{
+			RuntimeManager.PlayOneShot(FMODEvents.instance.playerFootsteps, transform.position);
+			nextPlayableTime = Time.time + 0.15f;
+		}
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		int otherLayer = other.gameObject.layer;
+
+		if (otherLayer == 6 || otherLayer == 7)
+		{
+			UpdateSound();
+		}
+	}
+
+
 }
