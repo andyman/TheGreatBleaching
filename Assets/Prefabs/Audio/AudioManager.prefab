@@ -64,3 +64,10 @@ MonoBehaviour:
       Data3: 881859261
       Data4: -1865804782
     Path: event:/Music/Main_Theme
+  playerFootsteps:
+    Guid:
+      Data1: -1934845710
+      Data2: 1281313585
+      Data3: -253914442
+      Data4: 2080726371
+    Path: event:/SFX/Player/Player_Footsteps
