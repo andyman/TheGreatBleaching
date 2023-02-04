@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &146874383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7549613094109758152, guid: dde1f547965c926459ee45e0ed2cd4a3, type: 3}
+  m_PrefabInstance: {fileID: 7549613095573661220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &146874390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146874383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e6558172bac0b4bb3db6060e9d24ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1110402498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8020669461975278606, guid: dde1f547965c926459ee45e0ed2cd4a3, type: 3}
@@ -135,6 +152,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: playerFootsteps.Path
+      value: event:/SFX/Player/Player_Footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: playerFootsteps.Guid.Data1
+      value: -1934845710
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: playerFootsteps.Guid.Data2
+      value: 1281313585
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: playerFootsteps.Guid.Data3
+      value: -253914442
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: playerFootsteps.Guid.Data4
+      value: 2080726371
+      objectReference: {fileID: 0}
     - target: {fileID: 5699764945153377923, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -361,6 +398,18 @@ PrefabInstance:
     - target: {fileID: 4768712136990237667, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_Name
       value: CameraAndPost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423943, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: far clip plane

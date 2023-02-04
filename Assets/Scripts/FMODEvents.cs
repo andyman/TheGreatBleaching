@@ -8,6 +8,10 @@ public class FMODEvents : MonoBehaviour
     [SerializeField]
     public EventReference music;
 
+    [Header("Player SFX")]
+    [SerializeField]
+    public EventReference playerFootsteps;
+
     public static FMODEvents instance { get; private set; }
 
     private void Awake()
