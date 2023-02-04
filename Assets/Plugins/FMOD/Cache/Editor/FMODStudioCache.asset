@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.assets.bank
   Name: SFX.assets
   StudioPath: bank:/SFX.assets
-  lastModified: 638110988765258465
+  lastModified: 638110991488105773
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -39,7 +39,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Music.bank
   Name: Desktop/Music
   StudioPath: bank:/Music
-  lastModified: 638110988765229402
+  lastModified: 638110964537347310
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Music.streams.bank
   Name: Music.streams
   StudioPath: bank:/Music.streams
-  lastModified: 638110988765238521
+  lastModified: 638110991488075844
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -87,7 +87,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.streams.bank
   Name: SFX.streams
   StudioPath: bank:/SFX.streams
-  lastModified: 638110988765258465
+  lastModified: 638110991488155626
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -111,7 +111,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Music.assets.bank
   Name: Music.assets
   StudioPath: bank:/Music.assets
-  lastModified: 638110988765229402
+  lastModified: 638110991488006035
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -150,7 +150,7 @@ MonoBehaviour:
   - {fileID: 2133750920407760782}
   StringsBanks:
   - {fileID: 4173323499375755748}
-  cacheTime: 638110988765258465
+  cacheTime: 638110991488155626
   cacheVersion: 131601
 --- !u!114 &1237914379724639603
 MonoBehaviour:
@@ -167,7 +167,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Master.assets.bank
   Name: Master.assets
   StudioPath: bank:/Master.assets
-  lastModified: 638110988765198774
+  lastModified: 638110991487806564
   FileSizes:
   - Name: Desktop
     Value: 10432
@@ -191,7 +191,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638110988764995415
+  lastModified: 638110991487856428
   FileSizes:
   - Name: Desktop
     Value: 2200
@@ -215,7 +215,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638110988765248493
+  lastModified: 638110964537377228
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -239,7 +239,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638110988765218568
+  lastModified: 638110991487936213
   FileSizes:
   - Name: Desktop
     Value: 1146
@@ -290,7 +290,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/Master.streams.bank
   Name: Master.streams
   StudioPath: bank:/Master.streams
-  lastModified: 638110988765208596
+  lastModified: 638110991487896326
   FileSizes:
   - Name: Desktop
     Value: 494
