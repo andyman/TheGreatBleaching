@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/sandbox_andrew.unity
-    guid: 1f0474195100a474d89faf99b5fa3e34
+    path: Assets/Scenes/lice_village.unity
+    guid: 734c696919e74b044aeca74615cde423
   m_configObjects: {}

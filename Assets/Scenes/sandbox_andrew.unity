@@ -275,11 +275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000000847696
+      value: 0.000000008476966
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000014683262
+      value: -0.0000000014683269
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -307,6 +307,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
+--- !u!1001 &4987585228179114687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5329481874156726324, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: m_Name
+      value: chief
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
 --- !u!1001 &5332108366865544515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -421,11 +478,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000000847696
+      value: 0.000000008476966
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000014683262
+      value: -0.0000000014683269
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423943, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_BackGroundColor.b
