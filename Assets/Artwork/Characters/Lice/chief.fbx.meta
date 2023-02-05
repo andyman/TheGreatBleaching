@@ -438,17 +438,17 @@ ModelImporter:
     - name: shoulder.L
       parentName: chest
       position: {x: -0, y: 0.17580116, z: 0}
-      rotation: {x: 0.03232422, y: 0.04542878, z: 0.8251727, w: 0.5621222}
+      rotation: {x: 0.026310878, y: 0.039487913, z: 0.80878913, w: 0.58618134}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: upper_arm.L
       parentName: shoulder.L
       position: {x: 0.000000017600541, y: 0.34379488, z: 0.000000018626451}
-      rotation: {x: -0.073398836, y: 0.2212738, z: 0.24558698, w: 0.9409238}
+      rotation: {x: -0.013791475, y: 0.21268643, z: -0.14164756, w: 0.96670073}
       scale: {x: 0.9999995, y: 0.999999, z: 0.99999934}
     - name: forearm.L
       parentName: upper_arm.L
       position: {x: -0.000000067055225, y: 0.23885399, z: 0.000000067055225}
-      rotation: {x: 0.14447384, y: 0.039616454, z: 0.24333024, w: 0.9583049}
+      rotation: {x: 0.02228222, y: 0.04627617, z: 0.004422948, w: 0.99867034}
       scale: {x: 1, y: 0.9999999, z: 1.0000001}
     - name: hand.L
       parentName: forearm.L
@@ -463,17 +463,17 @@ ModelImporter:
     - name: shoulder.R
       parentName: chest
       position: {x: -0, y: 0.17580116, z: 0}
-      rotation: {x: 0.03232422, y: -0.04542878, z: -0.8251727, w: 0.5621222}
+      rotation: {x: 0.026310759, y: -0.039487828, z: -0.80878884, w: 0.58618176}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
     - name: upper_arm.R
       parentName: shoulder.R
       position: {x: -0.000000017600541, y: 0.34379488, z: 0.000000018626451}
-      rotation: {x: -0.08211444, y: -0.19442543, z: -0.19464695, w: 0.957898}
+      rotation: {x: -0.020294555, y: -0.18152839, z: 0.13886076, w: 0.9733207}
       scale: {x: 0.99999946, y: 0.99999946, z: 0.99999934}
     - name: forearm.R
       parentName: upper_arm.R
       position: {x: 0.0000002514571, y: 0.23885415, z: 0.000000029802322}
-      rotation: {x: 0.1962721, y: -0.039608516, z: -0.30471903, w: 0.93115777}
+      rotation: {x: 0.022555858, y: -0.050249383, z: 0.0018781247, w: 0.9984802}
       scale: {x: 0.9999994, y: 0.99999964, z: 0.9999995}
     - name: hand.R
       parentName: forearm.R
