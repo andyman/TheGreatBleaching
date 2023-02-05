@@ -75,6 +75,7 @@ public class DialogueThang : MonoBehaviour
 	{
 		skipTriggered = false;
 		ShutUp();
+		visualObjectContainer.transform.parent = null;
 		visualObjectContainer.SetActive(true);
 		StartCoroutine(RunLines());
 	}
@@ -82,6 +83,7 @@ public class DialogueThang : MonoBehaviour
 	public void ShutUp()
 	{
 		visualObjectContainer.SetActive(false);
+		visualObjectContainer.transform.parent = transform;
 		doneEvent.Invoke();
 		currentLine = -1;
 		StopAllCoroutines();
