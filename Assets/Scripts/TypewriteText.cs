@@ -41,6 +41,7 @@ public class TypewriteText : MonoBehaviour
 	}
 	IEnumerator Run()
 	{
+		_done = false;
 		txt.text = "";
 		Transform camTran = Camera.main.transform;
 

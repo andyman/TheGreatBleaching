@@ -74,7 +74,7 @@ Material:
     - _NoiseTexScale: 0.2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RootHeight: 5
+    - _RootHeight: 4
     - _RootHeightVariation: 2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

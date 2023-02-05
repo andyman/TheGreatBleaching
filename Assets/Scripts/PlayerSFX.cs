@@ -38,7 +38,7 @@ public class PlayerSFX : MonoBehaviour
 
 		if (otherLayer == 6 || otherLayer == 7)
 		{
-			Debug.Log(player.landedJump);
+			//Debug.Log(player.landedJump);
 			if (player.landedJump)
 			{
 				PlayerLandedSFX();

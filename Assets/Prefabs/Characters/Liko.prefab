@@ -13,8 +13,6 @@ GameObject:
   - component: {fileID: 7549613094109758154}
   - component: {fileID: 7549613094109758155}
   - component: {fileID: 7549613094109758164}
-  - component: {fileID: 146874389}
-  - component: {fileID: 146874390}
   m_Layer: 8
   m_Name: Liko
   m_TagString: Untagged
@@ -59,6 +57,7 @@ MonoBehaviour:
   fallGravityMultiplier: 3
   safeBounds: {fileID: 0}
   canJump: 1
+  landedJump: 0
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 192
@@ -114,31 +113,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &146874389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7549613094109758152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 7549613094109758152}
---- !u!114 &146874390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7549613094109758152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74e6558172bac0b4bb3db6060e9d24ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7549613094534726629
 PrefabInstance:
   m_ObjectHideFlags: 0
