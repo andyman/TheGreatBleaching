@@ -410,6 +410,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: keyDelay
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[3].text
+      value: It's said that when the dark roots rise to the height of a house...
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[4].text
+      value: then all hope is lost if you are a louse!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[5].text
+      value: There is an old hermit who lives
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[2].durationAfterTyping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[3].durationAfterTyping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[4].durationAfterTyping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[5].durationAfterTyping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[3].eventBeforeSpeaking.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[3].eventBeforeSpeaking.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3244024723824797648, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
+      propertyPath: lines.Array.data[3].eventBeforeSpeaking.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4809227762895090318, guid: c9fe26de78cbf254181adaa11647640f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -493,11 +541,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016953926
+      value: -0.000000016953926
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000029366534
+      value: 0.0000000029366534
       objectReference: {fileID: 0}
     - target: {fileID: 3492915495526426977, guid: 701eeb17b9e3cda4e8d4bcadf6abf02a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -651,11 +699,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000016953926
+      value: -0.000000016953926
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000029366534
+      value: 0.0000000029366534
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
