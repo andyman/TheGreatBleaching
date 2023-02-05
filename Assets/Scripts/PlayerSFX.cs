@@ -10,13 +10,13 @@ public class PlayerSFX : MonoBehaviour
 	private float nextPlayableTime;
 
 	PlayerWalkController player;
-    private void Awake()
-    {
-		player = GetComponent<PlayerWalkController>();
+	private void Awake()
+	{
+		player = GetComponentInParent<PlayerWalkController>();
 
 	}
 
-    private void UpdateSound()
+	private void UpdateSound()
 	{
 		if (Time.time > nextPlayableTime)
 		{
@@ -26,11 +26,11 @@ public class PlayerSFX : MonoBehaviour
 	}
 
 	private void PlayerLandedSFX()
-    {
+	{
 		Debug.Log("Play landing");
 		RuntimeManager.PlayOneShot(FMODEvents.instance.playerLanding, transform.position);
 		player.landedJump = false;
-    }
+	}
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -38,16 +38,16 @@ public class PlayerSFX : MonoBehaviour
 
 		if (otherLayer == 6 || otherLayer == 7)
 		{
-			Debug.Log(transform.GetComponent<PlayerWalkController>().landedJump);
-            if (transform.GetComponent<PlayerWalkController>().landedJump)
-            {
+			Debug.Log(player.landedJump);
+			if (player.landedJump)
+			{
 				PlayerLandedSFX();
 			}
 			else
-            {
+			{
 				UpdateSound();
 			}
-			
+
 		}
 	}
 
