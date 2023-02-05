@@ -27,7 +27,7 @@ Shader "Custom/DiffuseHairRoot"
 			{
 				float2 uv_MainTex;
 				float3 worldPos;
-				fixed4 color : COLOR;
+				//fixed4 color : COLOR;
 			};
 
 			fixed4 _Color;
@@ -46,7 +46,7 @@ Shader "Custom/DiffuseHairRoot"
 			void surf(Input IN, inout SurfaceOutput o)
 			{
 				// Albedo comes from a texture tinted by color
-				fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color * IN.color;
+				fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color/* * IN.color*/;
 
 				float modHeight = IN.worldPos.y
 					+ tex2D(_NoiseTex, IN.worldPos.zx * _NoiseTexScale).x

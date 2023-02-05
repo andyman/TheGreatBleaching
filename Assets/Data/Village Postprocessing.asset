@@ -40,7 +40,7 @@ MonoBehaviour:
     value: 2
   focalLength:
     overrideState: 1
-    value: 68
+    value: 54
   kernelSize:
     overrideState: 1
     value: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
     value: 1
   color:
     overrideState: 1
-    value: {r: 0, g: 0, b: 0, a: 1}
+    value: {r: 0.254717, g: 0.09732112, b: 0.09732112, a: 1}
   ambientOnly:
     overrideState: 0
     value: 1
@@ -89,7 +89,7 @@ MonoBehaviour:
     value: 0
   radius:
     overrideState: 1
-    value: 1
+    value: 0.5
   quality:
     overrideState: 1
     value: 2
