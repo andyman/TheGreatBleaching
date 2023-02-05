@@ -27,22 +27,26 @@ public class FollowTextLabel : MonoBehaviour
 
 	void RefreshTransform()
 	{
+		if (target == null) return;
 		if (cam == null) cam = Camera.main;
 		if (cam == null) return;
 
 		Vector3 screenPos = cam.WorldToScreenPoint(target.position + worldOffset) + pixelOffset;
 
-		transform.position = screenPos;
+		transform.position = Vector3.Lerp(transform.position, screenPos, Time.deltaTime * 10.0f);
 
 		//transform.position = target.position + offset;
 		//transform.rotation = Quaternion.LookRotation((transform.position - cameraTransform.position).normalized);
 	}
 
+	private void Update()
+	{
+		RefreshTransform();
+	}
+
 	// Update is called once per frame
 	void LateUpdate()
 	{
-		if (target == null) return;
-
 		RefreshTransform();
 	}
 }

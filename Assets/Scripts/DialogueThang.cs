@@ -37,6 +37,8 @@ public class DialogueThang : MonoBehaviour
 	public GameObject visualObjectContainer;
 
 	public string audioEventPath;
+	public bool triggerable = true;
+	public bool skippable = false;
 
 	void Awake()
 	{
@@ -51,11 +53,16 @@ public class DialogueThang : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		skipTriggered = skipTriggered || Input.GetButtonDown("Jump");
+		if (skippable)
+		{
+			skipTriggered = skipTriggered || Input.GetButtonDown("Jump");
+		}
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
+		if (!triggerable) return;
+
 		if ((1 << other.gameObject.layer & interestedLayerMask) == 0) return;
 
 		if (currentLine == -1)
@@ -67,8 +74,17 @@ public class DialogueThang : MonoBehaviour
 	public void StartTalking()
 	{
 		skipTriggered = false;
+		ShutUp();
 		visualObjectContainer.SetActive(true);
 		StartCoroutine(RunLines());
+	}
+
+	public void ShutUp()
+	{
+		visualObjectContainer.SetActive(false);
+		doneEvent.Invoke();
+		currentLine = -1;
+		StopAllCoroutines();
 	}
 	IEnumerator RunLines()
 	{
@@ -77,9 +93,8 @@ public class DialogueThang : MonoBehaviour
 			DialogueLine line = lines[currentLine];
 			yield return StartCoroutine(Run(line));
 		}
-		doneEvent.Invoke();
-		visualObjectContainer.SetActive(false);
-		currentLine = -1;
+		ShutUp();
+
 	}
 
 	IEnumerator Run(DialogueLine line)
