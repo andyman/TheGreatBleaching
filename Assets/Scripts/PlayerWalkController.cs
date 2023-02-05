@@ -24,6 +24,7 @@ public class PlayerWalkController : MonoBehaviour
 	public BoxCollider safeBounds;
 
 	public bool canJump = false;
+	public bool landedJump = false;
 
 	public LayerMask groundLayerMask;
 
@@ -65,7 +66,7 @@ public class PlayerWalkController : MonoBehaviour
 			jumpPressed = false;
 			inputAxis = Vector2.zero;
 			jumpHeld = false;
-
+			landedJump = false;
 		}
 
 		anim.SetBool("grounded", grounded);
@@ -132,6 +133,7 @@ public class PlayerWalkController : MonoBehaviour
 			v.y += Physics.gravity.y * Time.deltaTime * fallGravityMultiplier;
 
 			playerRb.velocity = v;
+			landedJump = true;
 		}
 
 

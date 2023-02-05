@@ -12,6 +12,9 @@ public class FMODEvents : MonoBehaviour
     [SerializeField]
     public EventReference playerFootsteps;
 
+    [SerializeField]
+    public EventReference playerLanding;
+
     public static FMODEvents instance { get; private set; }
 
     private void Awake()

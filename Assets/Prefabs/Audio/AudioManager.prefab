@@ -71,3 +71,10 @@ MonoBehaviour:
       Data3: -253914442
       Data4: 2080726371
     Path: event:/SFX/Player/Player_Footsteps
+  playerLanding:
+    Guid:
+      Data1: 1770898876
+      Data2: 1142533928
+      Data3: -2086794618
+      Data4: 1730140793
+    Path: event:/SFX/Player/Player_Landing

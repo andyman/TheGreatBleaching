@@ -383,6 +383,9 @@ MonoBehaviour:
   - SFX
   - SFX.assets
   - SFX.streams
+  - VO
+  - VO.assets
+  - VO.streams
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
