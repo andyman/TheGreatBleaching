@@ -8,6 +8,9 @@ public class FMODEvents : MonoBehaviour
     [SerializeField]
     public EventReference music;
 
+    [SerializeField]
+    public EventReference ambience;
+
     [Header("Player SFX")]
     [SerializeField]
     public EventReference playerFootsteps;

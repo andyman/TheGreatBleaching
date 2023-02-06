@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance { get; private set; }
 
     private EventInstance musicEventInstance;
+    private EventInstance ambienceEventInstance;
 
     private void Awake()
     {
@@ -25,16 +26,21 @@ public class AudioManager : MonoBehaviour
         musicEventInstance.start();
     }
 
+    private void StartAmbience(EventReference ambienceEventReference)
+    {
+        ambienceEventInstance = RuntimeManager.CreateInstance(ambienceEventReference);
+        ambienceEventInstance.start();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         StartMusic(FMODEvents.instance.music);
-        Debug.Log("start music");
+        StartAmbience(FMODEvents.instance.ambience);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayAudio(string eventName)
     {
-        
+        RuntimeManager.PlayOneShot(eventName, Camera.main.transform.position);
     }
 }
