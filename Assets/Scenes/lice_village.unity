@@ -6412,6 +6412,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: ambience.Path
+      value: event:/SFX/Ambience/Wind
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: ambience.Guid.Data1
+      value: 715385725
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: ambience.Guid.Data2
+      value: 1188273713
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: ambience.Guid.Data3
+      value: -52019011
+      objectReference: {fileID: 0}
+    - target: {fileID: 5699764945153377922, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
+      propertyPath: ambience.Guid.Data4
+      value: 626461700
+      objectReference: {fileID: 0}
     - target: {fileID: 5699764945153377923, guid: 2f571ddb682dc7e4d9ed54bf0ca95f70, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -17802,7 +17822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -189.60507
+      value: -87.6051
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalPosition.y

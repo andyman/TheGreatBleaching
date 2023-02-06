@@ -375,6 +375,9 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Ambience
+  - Ambience.assets
+  - Ambience.streams
   - Master.assets
   - Master.streams
   - Music
