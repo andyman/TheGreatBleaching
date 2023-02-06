@@ -11670,6 +11670,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1964457331, guid: 4488ce9b863a0b849bf444bd483ebd3a, type: 3}
+      propertyPath: audioEventPath
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964457331, guid: 4488ce9b863a0b849bf444bd483ebd3a, type: 3}
       propertyPath: lines.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -22751,15 +22755,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -86.2894
+      value: -82.76001
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.75779724
+      value: -0.6000061
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.1025329
+      value: -2.3999996
       objectReference: {fileID: 0}
     - target: {fileID: 5378725409909423940, guid: 68000d01d98011e468aaec363364d7ba, type: 3}
       propertyPath: m_LocalRotation.w

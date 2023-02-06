@@ -117,7 +117,10 @@ public class DialogueThang : MonoBehaviour
 				Vector3 pos = camTran.position + Vector3.forward;
 				// TODO: play random sound at this position
 				//
-				RuntimeManager.PlayOneShot(audioEventPath, transform.position);
+				if (audioEventPath != null || audioEventPath == "")
+				{
+					RuntimeManager.PlayOneShot(audioEventPath, transform.position);
+				}
 				nextPlayTime = Time.time + 0.2f;
 			}
 
