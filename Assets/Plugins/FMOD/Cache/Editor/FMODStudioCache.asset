@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9024465910500919758
+--- !u!114 &-9164518398978583738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Name: bank:/Master.streams.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638112080188804071
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.streams.bank
+  Name: Master.streams
+  StudioPath: bank:/Master.streams
+  lastModified: 638112102242292627
   FileSizes:
   - Name: Desktop
-    Value: 5730
+    Value: 494
   - Name: Mobile
-    Value: 5730
+    Value: 494
   - Name: WebGL
-    Value: 5730
+    Value: 494
   Exists: 1
---- !u!114 &-7821660999534725597
+--- !u!114 &-8546187811960852110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34,94 +34,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/VO/Cultists/Cultist
+  m_Name: event:/SFX/Player/Player_Landing
   m_EditorClassIdentifier: 
-  Path: event:/VO/Cultists/Cultist
+  Path: event:/SFX/Player/Player_Landing
   Guid:
-    Data1: 961806651
-    Data2: 1282337039
-    Data3: -1197285957
-    Data4: 950160200
+    Data1: 1770898876
+    Data2: 1142533928
+    Data3: -2086794618
+    Data4: 1730140793
   Banks:
-  - {fileID: -3243478719860056790}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7740337580787152898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 638112089434317552
-  FileSizes:
-  - Name: Desktop
-    Value: 1688
-  - Name: Mobile
-    Value: 1688
-  - Name: WebGL
-    Value: 1688
-  Exists: 1
---- !u!114 &-7657371647650991433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/VO/Villagers/Villager
-  m_EditorClassIdentifier: 
-  Path: event:/VO/Villagers/Villager
-  Guid:
-    Data1: 1165111919
-    Data2: 1170385859
-    Data3: -116796276
-    Data4: 2062413421
-  Banks:
-  - {fileID: -3243478719860056790}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7145660249639716142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/VO/Liko/Liko_Voice
-  m_EditorClassIdentifier: 
-  Path: event:/VO/Liko/Liko_Voice
-  Guid:
-    Data1: -839558670
-    Data2: 1075559920
-    Data3: -348941422
-    Data4: -397527122
-  Banks:
-  - {fileID: -3243478719860056790}
+  - {fileID: 7767336099342417598}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -129,7 +51,158 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6991045469456574067
+--- !u!114 &-8034011709488744098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Player_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Player_Footsteps
+  Guid:
+    Data1: -1934845710
+    Data2: 1281313585
+    Data3: -253914442
+    Data4: 2080726371
+  Banks:
+  - {fileID: 7767336099342417598}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7758795256442042853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.assets.bank
+  Name: Music.assets
+  StudioPath: bank:/Music.assets
+  lastModified: 638112102242492098
+  FileSizes:
+  - Name: Desktop
+    Value: 36256
+  - Name: Mobile
+    Value: 105760
+  - Name: WebGL
+    Value: 31296
+  Exists: 1
+--- !u!114 &-7511300109292989429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.assets.bank
+  Name: SFX.assets
+  StudioPath: bank:/SFX.assets
+  lastModified: 638112102243097335
+  FileSizes:
+  - Name: Desktop
+    Value: 8480
+  - Name: Mobile
+    Value: 13664
+  - Name: WebGL
+    Value: 8256
+  Exists: 1
+--- !u!114 &-7362501609307967277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638112102242302596
+  FileSizes:
+  - Name: Desktop
+    Value: 2148
+  - Name: Mobile
+    Value: 2148
+  - Name: WebGL
+    Value: 2148
+  Exists: 1
+--- !u!114 &-7343178125941157711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Main_Theme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Main_Theme
+  Guid:
+    Data1: 1353432738
+    Data2: 1135301810
+    Data3: 881859261
+    Data4: -1865804782
+  Banks:
+  - {fileID: 8705590448943824918}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5175293300118599764}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66153
+--- !u!114 &-5322212986986000292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638112102242123086
+  FileSizes:
+  - Name: Desktop
+    Value: 2784
+  - Name: Mobile
+    Value: 2784
+  - Name: WebGL
+    Value: 2784
+  Exists: 1
+--- !u!114 &-5175293300118599764
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +226,35 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-6090126847689057432
+--- !u!114 &-4059060808440835204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambience/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambience/Wind
+  Guid:
+    Data1: 715385725
+    Data2: 1188273713
+    Data3: -52019011
+    Data4: 626461700
+  Banks:
+  - {fileID: 8714918500435460476}
+  - {fileID: 7767336099342417598}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 146119
+--- !u!114 &-3582030129635008294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,21 +264,141 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.assets.bank
+  m_Name: bank:/VO.streams.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.assets.bank
-  Name: Music.assets
-  StudioPath: bank:/Music.assets
-  lastModified: 638112089432014492
+  Path: Assets/Plugins/FMOD_Banks/Desktop/VO.streams.bank
+  Name: VO.streams
+  StudioPath: bank:/VO.streams
+  lastModified: 638112102244754373
   FileSizes:
   - Name: Desktop
-    Value: 36256
+    Value: 303136
   - Name: Mobile
-    Value: 105760
+    Value: 646976
   - Name: WebGL
-    Value: 31296
+    Value: 267232
   Exists: 1
---- !u!114 &-6037578978996389887
+--- !u!114 &-2683624466922670886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.streams.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.streams.bank
+  Name: SFX.streams
+  StudioPath: bank:/SFX.streams
+  lastModified: 638112102243416486
+  FileSizes:
+  - Name: Desktop
+    Value: 1675232
+  - Name: Mobile
+    Value: 3836448
+  - Name: WebGL
+    Value: 1522400
+  Exists: 1
+--- !u!114 &-2594110655895596787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.assets.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.assets.bank
+  Name: Master.assets
+  StudioPath: bank:/Master.assets
+  lastModified: 638112102242282666
+  FileSizes:
+  - Name: Desktop
+    Value: 10432
+  - Name: Mobile
+    Value: 47488
+  - Name: WebGL
+    Value: 8960
+  Exists: 1
+--- !u!114 &-913988350440149943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.streams.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.streams.bank
+  Name: Music.streams
+  StudioPath: bank:/Music.streams
+  lastModified: 638112102242801277
+  FileSizes:
+  - Name: Desktop
+    Value: 896032
+  - Name: Mobile
+    Value: 1798080
+  - Name: WebGL
+    Value: 754816
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -7362501609307967277}
+  - {fileID: 4194437169635638620}
+  - {fileID: 8714918500435460476}
+  - {fileID: 6087694257088265091}
+  - {fileID: -2594110655895596787}
+  - {fileID: -5322212986986000292}
+  - {fileID: -9164518398978583738}
+  - {fileID: -7758795256442042853}
+  - {fileID: 8705590448943824918}
+  - {fileID: -913988350440149943}
+  - {fileID: -7511300109292989429}
+  - {fileID: 7767336099342417598}
+  - {fileID: -2683624466922670886}
+  - {fileID: 1252258884546782679}
+  - {fileID: 1861874739277320019}
+  - {fileID: -3582030129635008294}
+  EditorEvents:
+  - {fileID: -4059060808440835204}
+  - {fileID: 2710887701908696258}
+  - {fileID: 165204131055641568}
+  - {fileID: -7343178125941157711}
+  - {fileID: -8546187811960852110}
+  - {fileID: -8034011709488744098}
+  - {fileID: 6291466042666541048}
+  - {fileID: 901522554127918364}
+  - {fileID: 1439946799105274873}
+  - {fileID: 6107530255626217853}
+  - {fileID: 8072831109437751501}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5322212986986000292}
+  StringsBanks:
+  - {fileID: -7362501609307967277}
+  cacheTime: 638112102245088567
+  cacheVersion: 131601
+--- !u!114 &165204131055641568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +417,7 @@ MonoBehaviour:
     Data3: -1511589203
     Data4: 1724336613
   Banks:
-  - {fileID: -9024465910500919758}
+  - {fileID: 8705590448943824918}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -204,31 +425,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
---- !u!114 &-5497598081550565567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638112089432372692
-  FileSizes:
-  - Name: Desktop
-    Value: 5774
-  - Name: Mobile
-    Value: 5774
-  - Name: WebGL
-    Value: 5774
-  Exists: 1
---- !u!114 &-4958243214012811874
+--- !u!114 &901522554127918364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,25 +435,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Ambience/Wind
+  m_Name: event:/VO/Villagers/Villager
   m_EditorClassIdentifier: 
-  Path: event:/SFX/Ambience/Wind
+  Path: event:/VO/Villagers/Villager
   Guid:
-    Data1: 715385725
-    Data2: 1188273713
-    Data3: -52019011
-    Data4: 626461700
+    Data1: 1165111919
+    Data2: 1170385859
+    Data3: -116796276
+    Data4: 2062413421
   Banks:
-  - {fileID: 1164621872776164318}
-  - {fileID: 5225663083540099817}
+  - {fileID: 1861874739277320019}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
+  Is3D: 1
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 146119
---- !u!114 &-4485337492721623878
+  Length: 0
+--- !u!114 &1252258884546782679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,145 +462,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.streams.bank
+  m_Name: bank:/VO.assets.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.streams.bank
-  Name: Music.streams
-  StudioPath: bank:/Music.streams
-  lastModified: 638112089432322814
+  Path: Assets/Plugins/FMOD_Banks/Desktop/VO.assets.bank
+  Name: VO.assets
+  StudioPath: bank:/VO.assets
+  lastModified: 638112102244455202
   FileSizes:
   - Name: Desktop
-    Value: 896032
+    Value: 550656
   - Name: Mobile
-    Value: 1798080
+    Value: 1065696
   - Name: WebGL
-    Value: 754816
+    Value: 503584
   Exists: 1
---- !u!114 &-4151129190264556131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/SFX.assets.bank
-  Name: SFX.assets
-  StudioPath: bank:/SFX.assets
-  lastModified: 638111308518766665
-  FileSizes:
-  - Name: Desktop
-    Value: 8480
-  - Name: Mobile
-    Value: 13664
-  - Name: WebGL
-    Value: 8256
-  Exists: 1
---- !u!114 &-3243478719860056790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VO.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/VO.bank
-  Name: VO
-  StudioPath: bank:/VO
-  lastModified: 638112053831727088
-  FileSizes:
-  - Name: Desktop
-    Value: 45204
-  - Name: Mobile
-    Value: 45204
-  - Name: WebGL
-    Value: 45204
-  Exists: 1
---- !u!114 &-2797445126187872136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638112089431725262
-  FileSizes:
-  - Name: Desktop
-    Value: 3794
-  - Name: Mobile
-    Value: 3794
-  - Name: WebGL
-    Value: 3794
-  Exists: 1
---- !u!114 &-2453514527553426516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638112089431695335
-  FileSizes:
-  - Name: Desktop
-    Value: 2148
-  - Name: Mobile
-    Value: 2148
-  - Name: WebGL
-    Value: 2148
-  Exists: 1
---- !u!114 &-2406335709529376317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Ambience/Wind
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Ambience/Wind
-  Guid:
-    Data1: 715385725
-    Data2: 1188273713
-    Data3: -52019011
-    Data4: 626461700
-  Banks:
-  - {fileID: -7740337580787152898}
-  - {fileID: -5497598081550565567}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 146119
---- !u!114 &-2381913516044801280
+--- !u!114 &1439946799105274873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -423,7 +495,7 @@ MonoBehaviour:
     Data3: 1241825710
     Data4: 1221230415
   Banks:
-  - {fileID: -3243478719860056790}
+  - {fileID: 1861874739277320019}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -431,283 +503,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2277464611929896194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VO.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/VO.assets.bank
-  Name: VO.assets
-  StudioPath: bank:/VO.assets
-  lastModified: 638112089434048274
-  FileSizes:
-  - Name: Desktop
-    Value: 550656
-  - Name: Mobile
-    Value: 1065696
-  - Name: WebGL
-    Value: 503584
-  Exists: 1
---- !u!114 &-2160937615755625902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VO.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/VO.streams.bank
-  Name: VO.streams
-  StudioPath: bank:/VO.streams
-  lastModified: 638112089434297606
-  FileSizes:
-  - Name: Desktop
-    Value: 303136
-  - Name: Mobile
-    Value: 646976
-  - Name: WebGL
-    Value: 267232
-  Exists: 1
---- !u!114 &-2109225649788226475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/VO/Elder_Uku/Elder_Voice
-  m_EditorClassIdentifier: 
-  Path: event:/VO/Elder_Uku/Elder_Voice
-  Guid:
-    Data1: -1329781781
-    Data2: 1102864718
-    Data3: 1645297068
-    Data4: -1872743014
-  Banks:
-  - {fileID: -3243478719860056790}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1152095313763255716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.streams.bank
-  Name: SFX.streams
-  StudioPath: bank:/SFX.streams
-  lastModified: 638112089432941157
-  FileSizes:
-  - Name: Desktop
-    Value: 1675232
-  - Name: Mobile
-    Value: 3836448
-  - Name: WebGL
-    Value: 1522400
-  Exists: 1
---- !u!114 &-1117825399829518393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638112080188794099
-  FileSizes:
-  - Name: Desktop
-    Value: 2148
-  - Name: Mobile
-    Value: 2148
-  - Name: WebGL
-    Value: 2148
-  Exists: 1
---- !u!114 &-22826954905226790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Main_Theme
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Main_Theme
-  Guid:
-    Data1: 1353432738
-    Data2: 1135301810
-    Data3: 881859261
-    Data4: -1865804782
-  Banks:
-  - {fileID: -9024465910500919758}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -6991045469456574067}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 66153
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1117825399829518393}
-  - {fileID: 5977512887461233499}
-  - {fileID: 1313960015297944970}
-  - {fileID: 9210453140767356564}
-  - {fileID: 5613626910661063886}
-  - {fileID: -9024465910500919758}
-  - {fileID: 8623457374254322953}
-  - {fileID: -4151129190264556131}
-  - {fileID: 5225663083540099817}
-  - {fileID: 6021098146543096851}
-  - {fileID: 8205816851285934794}
-  - {fileID: -3243478719860056790}
-  - {fileID: 4017925059395143237}
-  - {fileID: 6545307569365774681}
-  - {fileID: 1164621872776164318}
-  - {fileID: 7056677596883874291}
-  EditorEvents:
-  - {fileID: 8231998013073065840}
-  - {fileID: -22826954905226790}
-  - {fileID: 6625202665694414530}
-  - {fileID: 5223104990407196069}
-  - {fileID: -7821660999534725597}
-  - {fileID: -7657371647650991433}
-  - {fileID: -2381913516044801280}
-  - {fileID: -2109225649788226475}
-  - {fileID: -7145660249639716142}
-  - {fileID: -6037578978996389887}
-  - {fileID: -4958243214012811874}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 1313960015297944970}
-  StringsBanks:
-<<<<<<< HEAD
-  - {fileID: -2453514527553426516}
-  cacheTime: 638112089434627740
-=======
-  - {fileID: -1117825399829518393}
-  cacheTime: 638112080188956069
->>>>>>> 2e017e99840fbfab4a6be70cd7d3d9496acb9d04
-  cacheVersion: 131601
---- !u!114 &553181790256850714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.assets.bank
-  Name: Master.assets
-  StudioPath: bank:/Master.assets
-  lastModified: 638112089431675404
-  FileSizes:
-  - Name: Desktop
-    Value: 10432
-  - Name: Mobile
-    Value: 47488
-  - Name: WebGL
-    Value: 8960
-  Exists: 1
---- !u!114 &1164621872776164318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Ambience.bank
-  Name: Ambience
-  StudioPath: bank:/Ambience
-  lastModified: 638112080188613886
-  FileSizes:
-  - Name: Desktop
-    Value: 1688
-  - Name: Mobile
-    Value: 1688
-  - Name: WebGL
-    Value: 1688
-  Exists: 1
---- !u!114 &1313960015297944970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638112080188774318
-  FileSizes:
-  - Name: Desktop
-    Value: 2784
-  - Name: Mobile
-    Value: 2784
-  - Name: WebGL
-    Value: 2784
-  Exists: 1
---- !u!114 &2820404684859878029
+--- !u!114 &1861874739277320019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -722,7 +518,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD_Banks/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 638112089433270308
+  lastModified: 638112102243727128
   FileSizes:
   - Name: Desktop
     Value: 45204
@@ -731,349 +527,7 @@ MonoBehaviour:
   - Name: WebGL
     Value: 45204
   Exists: 1
---- !u!114 &3830604668156707713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.assets.bank
-  Name: SFX.assets
-  StudioPath: bank:/SFX.assets
-  lastModified: 638112089432622016
-  FileSizes:
-  - Name: Desktop
-    Value: 8480
-  - Name: Mobile
-    Value: 13664
-  - Name: WebGL
-    Value: 8256
-  Exists: 1
---- !u!114 &4017925059395143237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VO.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/VO.streams.bank
-  Name: VO.streams
-  StudioPath: bank:/VO.streams
-  lastModified: 638112053831796886
-  FileSizes:
-  - Name: Desktop
-    Value: 303136
-  - Name: Mobile
-    Value: 646976
-  - Name: WebGL
-    Value: 267232
-  Exists: 1
---- !u!114 &5223104990407196069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/Player_Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/Player_Footsteps
-  Guid:
-    Data1: -1934845710
-    Data2: 1281313585
-    Data3: -253914442
-    Data4: 2080726371
-  Banks:
-  - {fileID: 5225663083540099817}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &5225663083540099817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/SFX.bank
-  Name: SFX
-  StudioPath: bank:/SFX
-  lastModified: 638112080188814045
-  FileSizes:
-  - Name: Desktop
-    Value: 5774
-  - Name: Mobile
-    Value: 5774
-  - Name: WebGL
-    Value: 5774
-  Exists: 1
---- !u!114 &5402569943365220178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.streams.bank
-  Name: Ambience.streams
-  StudioPath: bank:/Ambience.streams
-  lastModified: 638112089434627740
-  FileSizes:
-  - Name: Desktop
-    Value: 1675232
-  - Name: Mobile
-    Value: 3836448
-  - Name: WebGL
-    Value: 1522400
-  Exists: 1
---- !u!114 &5613626910661063886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Music.assets.bank
-  Name: Music.assets
-  StudioPath: bank:/Music.assets
-  lastModified: 638112053831577469
-  FileSizes:
-  - Name: Desktop
-    Value: 36256
-  - Name: Mobile
-    Value: 105760
-  - Name: WebGL
-    Value: 31296
-  Exists: 1
---- !u!114 &5689805389266211827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.streams.bank
-  Name: Master.streams
-  StudioPath: bank:/Master.streams
-  lastModified: 638112089431685364
-  FileSizes:
-  - Name: Desktop
-    Value: 494
-  - Name: Mobile
-    Value: 494
-  - Name: WebGL
-    Value: 494
-  Exists: 1
---- !u!114 &5977512887461233499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Master.assets.bank
-  Name: Master.assets
-  StudioPath: bank:/Master.assets
-  lastModified: 638111308518570348
-  FileSizes:
-  - Name: Desktop
-    Value: 10432
-  - Name: Mobile
-    Value: 47488
-  - Name: WebGL
-    Value: 8960
-  Exists: 1
---- !u!114 &6021098146543096851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SFX.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/SFX.streams.bank
-  Name: SFX.streams
-  StudioPath: bank:/SFX.streams
-  lastModified: 638112080188956069
-  FileSizes:
-  - Name: Desktop
-    Value: 1675232
-  - Name: Mobile
-    Value: 3836448
-  - Name: WebGL
-    Value: 1522400
-  Exists: 1
---- !u!114 &6379550512553361589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.assets.bank
-  Name: Ambience.assets
-  StudioPath: bank:/Ambience.assets
-  lastModified: 638112089434337507
-  FileSizes:
-  - Name: Desktop
-    Value: 494
-  - Name: Mobile
-    Value: 494
-  - Name: WebGL
-    Value: 494
-  Exists: 1
---- !u!114 &6545307569365774681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Ambience.assets.bank
-  Name: Ambience.assets
-  StudioPath: bank:/Ambience.assets
-  lastModified: 638112080188593943
-  FileSizes:
-  - Name: Desktop
-    Value: 494
-  - Name: Mobile
-    Value: 494
-  - Name: WebGL
-    Value: 494
-  Exists: 1
---- !u!114 &6625202665694414530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/Player_Landing
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/Player_Landing
-  Guid:
-    Data1: 1770898876
-    Data2: 1142533928
-    Data3: -2086794618
-    Data4: 1730140793
-  Banks:
-  - {fileID: 5225663083540099817}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &7056677596883874291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience.streams.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Ambience.streams.bank
-  Name: Ambience.streams
-  StudioPath: bank:/Ambience.streams
-  lastModified: 638112080188754450
-  FileSizes:
-  - Name: Desktop
-    Value: 1675232
-  - Name: Mobile
-    Value: 3836448
-  - Name: WebGL
-    Value: 1522400
-  Exists: 1
---- !u!114 &8205816851285934794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/VO.assets.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/VO.assets.bank
-  Name: VO.assets
-  StudioPath: bank:/VO.assets
-  lastModified: 638111308518897896
-  FileSizes:
-  - Name: Desktop
-    Value: 550656
-  - Name: Mobile
-    Value: 1065696
-  - Name: WebGL
-    Value: 503584
-  Exists: 1
---- !u!114 &8231998013073065840
+--- !u!114 &2710887701908696258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1092,7 +546,7 @@ MonoBehaviour:
     Data3: -2100849733
     Data4: -1537698937
   Banks:
-  - {fileID: 1313960015297944970}
+  - {fileID: -5322212986986000292}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1100,7 +554,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8623457374254322953
+--- !u!114 &4194437169635638620
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1110,21 +564,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.streams.bank
+  m_Name: bank:/Ambience.assets.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Music.streams.bank
-  Name: Music.streams
-  StudioPath: bank:/Music.streams
-  lastModified: 638112053831707122
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.assets.bank
+  Name: Ambience.assets
+  StudioPath: bank:/Ambience.assets
+  lastModified: 638112102244784307
   FileSizes:
   - Name: Desktop
-    Value: 1516416
+    Value: 494
   - Name: Mobile
-    Value: 3090752
+    Value: 494
   - Name: WebGL
-    Value: 1300800
+    Value: 494
   Exists: 1
---- !u!114 &9057428167545729213
+--- !u!114 &6087694257088265091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1134,21 +588,75 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Ambience.streams.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638112089431515821
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.streams.bank
+  Name: Ambience.streams
+  StudioPath: bank:/Ambience.streams
+  lastModified: 638112102245088567
   FileSizes:
   - Name: Desktop
-    Value: 2784
+    Value: 1675232
   - Name: Mobile
-    Value: 2784
+    Value: 3836448
   - Name: WebGL
-    Value: 2784
+    Value: 1522400
   Exists: 1
---- !u!114 &9210453140767356564
+--- !u!114 &6107530255626217853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VO/Elder_Uku/Elder_Voice
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Elder_Uku/Elder_Voice
+  Guid:
+    Data1: -1329781781
+    Data2: 1102864718
+    Data3: 1645297068
+    Data4: -1872743014
+  Banks:
+  - {fileID: 1861874739277320019}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6291466042666541048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VO/Cultists/Cultist
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Cultists/Cultist
+  Guid:
+    Data1: 961806651
+    Data2: 1282337039
+    Data3: -1197285957
+    Data4: 950160200
+  Banks:
+  - {fileID: 1861874739277320019}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7767336099342417598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1158,17 +666,92 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.streams.bank
+  m_Name: bank:/SFX.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD_Banks/WebGL/Master.streams.bank
-  Name: Master.streams
-  StudioPath: bank:/Master.streams
-  lastModified: 638111308518608660
+  Path: Assets/Plugins/FMOD_Banks/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638112102242841175
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 5774
   - Name: Mobile
-    Value: 494
+    Value: 5774
   - Name: WebGL
-    Value: 494
+    Value: 5774
+  Exists: 1
+--- !u!114 &8072831109437751501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VO/Liko/Liko_Voice
+  m_EditorClassIdentifier: 
+  Path: event:/VO/Liko/Liko_Voice
+  Guid:
+    Data1: -839558670
+    Data2: 1075559920
+    Data3: -348941422
+    Data4: -397527122
+  Banks:
+  - {fileID: 1861874739277320019}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8705590448943824918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638112102242333779
+  FileSizes:
+  - Name: Desktop
+    Value: 3794
+  - Name: Mobile
+    Value: 3794
+  - Name: WebGL
+    Value: 3794
+  Exists: 1
+--- !u!114 &8714918500435460476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD_Banks/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638112102244774338
+  FileSizes:
+  - Name: Desktop
+    Value: 1688
+  - Name: Mobile
+    Value: 1688
+  - Name: WebGL
+    Value: 1688
   Exists: 1

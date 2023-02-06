@@ -64,6 +64,13 @@ MonoBehaviour:
       Data3: 881859261
       Data4: -1865804782
     Path: event:/Music/Main_Theme
+  ambience:
+    Guid:
+      Data1: 715385725
+      Data2: 1188273713
+      Data3: -52019011
+      Data4: 626461700
+    Path: event:/SFX/Ambience/Wind
   playerFootsteps:
     Guid:
       Data1: -1934845710
